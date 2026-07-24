@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0E1730">
+  <meta name="description" content="Deuces — Shisha Bar & Chill Lounge in the heart of Vienna.">
+  <title>Deuces — Shisha Bar & Chill Lounge Vienna</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@300;400;500&family=Playfair+Display:wght@400;500&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,300,0,0&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://app.reservly.at/embed.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://app.reservly.at/embed.js" defer></script>
+  <script src="script.js" type="module"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <!-- Fixed header -->
+  <header class="site-header" id="site-header">
+    <div class="site-header__inner">
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-controls="navigation-overlay" aria-expanded="false">
+        <span class="material-symbols-outlined menu-toggle__icon" aria-hidden="true">menu</span>
+        <span class="menu-toggle__label">Menu</span>
+      </button>
+
+      <a class="header-wordmark" href="#home" aria-label="Deuces home">
+        <img src="assets/images/deuces-logo.png" width="263" height="77" alt="">
+      </a>
+
+      <a class="link-box link-box--small header-reserve" href="#reserve">
+        <span class="header-reserve__full">Reserve a table</span>
+        <span class="header-reserve__short">Reserve</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Full-screen navigation -->
+  <div class="nav-overlay" id="navigation-overlay" aria-hidden="true" inert>
+    <div class="nav-overlay__top">
+      <a class="nav-overlay__wordmark" href="#home" data-menu-link>
+        <img src="assets/images/deuces-logo.png" width="263" height="77" alt="Deuces">
+      </a>
+      <button class="nav-close" id="nav-close" type="button" aria-label="Close navigation">
+        <span>Close</span>
+        <span class="material-symbols-outlined" aria-hidden="true">close</span>
+      </button>
+    </div>
+
+    <nav class="nav-overlay__nav" aria-label="Primary navigation">
+      <a href="#home" data-menu-link>Home</a>
+      <a href="#story" data-menu-link>Our Story</a>
+      <a href="#menu" data-menu-link>Menu</a>
+      <a href="#events" data-menu-link>Events</a>
+      <a href="#gallery" data-menu-link>Gallery</a>
+      <a href="#reserve" data-menu-link>Reserve</a>
+    </nav>
+
+    <div class="nav-overlay__footer">
+      <a href="https://www.instagram.com/deucesshisha/" target="_blank" rel="noopener noreferrer">@deucesshisha</a>
+      <address>Krugerstraße 6 · 1010 Vienna · Austria</address>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- Hero -->
+    <section class="hero" id="home" aria-label="Welcome to Deuces">
+      <div class="hero__media" aria-hidden="true">
+        <div class="hero-slide is-active">
+          <img src="assets/images/hero-deuces-01.jpg" width="1920" height="1080" alt="" fetchpriority="high" data-fallback>
+        </div>
+        <div class="hero-slide">
+          <img src="assets/images/hero-deuces-02.jpg" width="1440" height="900" alt="" data-fallback>
+        </div>
+        <div class="hero-slide">
+          <img src="assets/images/hero-deuces-03.jpg" width="1920" height="1080" alt="" data-fallback>
+        </div>
+        <div class="hero-slide">
+          <img src="assets/images/hero-deuces-04.jpg" width="1920" height="1080" alt="" data-fallback>
+        </div>
+      </div>
+      <div class="hero__shade" aria-hidden="true"></div>
+
+      <div class="hero__content">
+        <p class="eyebrow hero__eyebrow">Vienna <span aria-hidden="true">·</span> Since 2012</p>
+        <h1 class="hero__title">
+          <span class="hero__title-brand">Deuces</span>
+          <span class="hero__title-type">Shisha</span>
+        </h1>
+        <p class="hero__statement">Shisha is our love language<br>Since 2012</p>
+        <div class="hero__actions">
+          <a class="button button--hero" href="#reserve">Reserve a table</a>
+        </div>
+      </div>
+
+      <button class="hero-arrow hero-arrow--previous" id="hero-prev" type="button" aria-label="Previous hero image">
+          <span class="material-symbols-outlined" aria-hidden="true">arrow_back</span>
+      </button>
+      <button class="hero-arrow hero-arrow--next" id="hero-next" type="button" aria-label="Next hero image">
+          <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span>
+      </button>
+    </section>
+
+    <!-- Brand introduction -->
+    <section class="intro section" id="story">
+      <div class="intro__layout container">
+        <figure class="intro__image intro__image--left image-shell reveal">
+          <img src="assets/images/deuces-drink-01.jpg" width="900" height="1200" loading="lazy" alt="An amber cocktail and tea served at Deuces" data-fallback>
+        </figure>
+
+        <div class="intro__copy reveal">
+          <p class="eyebrow">Slow down. Stay a while.</p>
+          <h2>Shisha. Music.<br>Love.</h2>
+          <p>At Deuces, the city stays outside for a moment. Carefully prepared shisha, soulful drinks, warm hospitality and laid-back music come together in the heart of Vienna.</p>
+        </div>
+
+        <figure class="intro__image intro__image--right image-shell reveal">
+          <img src="assets/images/deuces-interior-01.jpg" width="1200" height="1500" loading="lazy" alt="The intimate navy and bronze interior of Deuces" data-fallback>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Menu marquees -->
+    <section class="menu-marquee section" id="menu" aria-labelledby="menu-title">
+      <div class="section-heading container reveal">
+        <p class="eyebrow">At the table</p>
+        <h2 id="menu-title">Made for slow evenings</h2>
+      </div>
+
+      <div class="marquee marquee--forward" aria-label="Signature shisha, house blends, tea with soul, cocktails">
+        <div class="marquee__track">
+          <div class="marquee__group">
+            <span class="marquee__text">Signature Shisha</span><img class="marquee__image marquee__image--circle" src="assets/images/marquee-shisha.jpg" width="720" height="480" loading="lazy" alt="Shisha prepared at Deuces" data-fallback>
+            <span class="marquee__text">House Blends</span><img class="marquee__image marquee__image--pill" src="assets/images/marquee-tea.jpg" width="720" height="480" loading="lazy" alt="Tea served at Deuces" data-fallback>
+            <span class="marquee__text">Tea with Soul</span><img class="marquee__image marquee__image--landscape" src="assets/images/marquee-cocktail.jpg" width="720" height="480" loading="lazy" alt="A cocktail at Deuces" data-fallback>
+            <span class="marquee__text">Cocktails</span><img class="marquee__image marquee__image--portrait" src="assets/images/marquee-cocktail.jpg" width="720" height="480" loading="lazy" alt="Cocktail detail at Deuces" data-fallback>
+          </div>
+          <div class="marquee__group" aria-hidden="true">
+            <span class="marquee__text">Signature Shisha</span><img class="marquee__image marquee__image--circle" src="assets/images/marquee-shisha.jpg" width="720" height="480" loading="lazy" alt="" data-fallback>
+            <span class="marquee__text">House Blends</span><img class="marquee__image marquee__image--pill" src="assets/images/marquee-tea.jpg" width="720" height="480" loading="lazy" alt="" data-fallback>
+            <span class="marquee__text">Tea with Soul</span><img class="marquee__image marquee__image--landscape" src="assets/images/marquee-cocktail.jpg" width="720" height="480" loading="lazy" alt="" data-fallback>
+            <span class="marquee__text">Cocktails</span><img class="marquee__image marquee__image--portrait" src="assets/images/marquee-cocktail.jpg" width="720" height="480" loading="lazy" alt="" data-fallback>
+          </div>
+        </div>
+      </div>
+
+      <div class="marquee marquee--reverse" aria-label="Middle Eastern bites, lounge classics, slow evenings, good company">
+        <div class="marquee__track">
+          <div class="marquee__group">
+            <span class="marquee__text">Middle Eastern Bites</span><img class="marquee__image marquee__image--portrait" src="assets/images/marquee-bites.jpg" width="720" height="480" loading="lazy" alt="Middle Eastern bites at Deuces" data-fallback>
+            <span class="marquee__text">Lounge Classics</span><img class="marquee__image marquee__image--circle" src="assets/images/marquee-cocktail.jpg" width="720" height="480" loading="lazy" alt="Cocktail at the lounge" data-fallback>
+            <span class="marquee__text">Slow Evenings</span><img class="marquee__image marquee__image--pill" src="assets/images/marquee-shisha.jpg" width="720" height="480" loading="lazy" alt="Deuces lounge atmosphere" data-fallback>
+            <span class="marquee__text">Good Company</span><img class="marquee__image marquee__image--landscape" src="assets/images/marquee-tea.jpg" width="720" height="480" loading="lazy" alt="Tea shared at Deuces" data-fallback>
+          </div>
+          <div class="marquee__group" aria-hidden="true">
+            <span class="marquee__text">Middle Eastern Bites</span><img class="marquee__image marquee__image--portrait" src="assets/images/marquee-bites.jpg" width="720" height="480" loading="lazy" alt="" data-fallback>
+            <span class="marquee__text">Lounge Classics</span><img class="marquee__image marquee__image--circle" src="assets/images/marquee-cocktail.jpg" width="720" height="480" loading="lazy" alt="" data-fallback>
+            <span class="marquee__text">Slow Evenings</span><img class="marquee__image marquee__image--pill" src="assets/images/marquee-shisha.jpg" width="720" height="480" loading="lazy" alt="" data-fallback>
+            <span class="marquee__text">Good Company</span><img class="marquee__image marquee__image--landscape" src="assets/images/marquee-tea.jpg" width="720" height="480" loading="lazy" alt="" data-fallback>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-marquee__cta container">
+        <a class="link-box" href="#menu"><span>Explore the menu</span></a>
+      </div>
+    </section>
+
+    <!-- Events -->
+    <section class="events section" id="events" aria-labelledby="events-title">
+      <div class="section-heading section-heading--center container reveal">
+        <p class="eyebrow">Stay for the sound</p>
+        <h2 id="events-title">Upcoming events</h2>
+        <p>Music, shared tables and evenings worth staying for.</p>
+      </div>
+
+      <div class="events__grid container">
+        <article class="event reveal">
+          <a class="event__image image-shell" href="#reserve" aria-label="Reserve for Friday Sessions">
+            <img src="assets/images/event-01.jpg" width="800" height="1100" loading="lazy" alt="Friends gathered for an evening at Deuces" data-fallback>
+          </a>
+          <h3><a href="#reserve">Friday Sessions</a></h3>
+          <p class="event__schedule">Weekly programme coming soon.</p>
+          <a class="link-box link-box--small" href="#reserve"><span>Details</span></a>
+        </article>
+
+        <article class="event reveal">
+          <a class="event__image image-shell" href="#reserve" aria-label="Reserve for Oriental Night">
+            <img src="assets/images/event-02.jpg" width="800" height="1100" loading="lazy" alt="Low-lit seating inside the Deuces lounge" data-fallback>
+          </a>
+          <h3><a href="#reserve">Oriental Night</a></h3>
+          <p class="event__schedule">Schedule coming soon.</p>
+          <a class="link-box link-box--small" href="#reserve"><span>Details</span></a>
+        </article>
+
+        <article class="event reveal">
+          <a class="event__image image-shell" href="#reserve" aria-label="Reserve for Late Night Lounge">
+            <img src="assets/images/event-03.jpg" width="800" height="1100" loading="lazy" alt="A shisha and drinks under moody lounge lighting" data-fallback>
+          </a>
+          <h3><a href="#reserve">Late Night Lounge</a></h3>
+          <p class="event__schedule">Schedule coming soon.</p>
+          <a class="link-box link-box--small" href="#reserve"><span>Details</span></a>
+        </article>
+
+        <article class="event reveal">
+          <a class="event__image image-shell" href="#reserve" aria-label="Ask about private celebrations">
+            <img src="assets/images/event-04.jpg" width="800" height="1100" loading="lazy" alt="Cocktail and tea prepared for a private evening" data-fallback>
+          </a>
+          <h3><a href="#reserve">Private Celebrations</a></h3>
+          <p class="event__schedule">Available on request.</p>
+          <a class="link-box link-box--small" href="#reserve"><span>Details</span></a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Reservation -->
+    <section class="reservation section" id="reserve" aria-labelledby="reservation-title">
+      <div class="section-heading section-heading--center container reveal">
+        <p class="eyebrow">Your table awaits</p>
+        <h2 id="reservation-title">Reserve your table</h2>
+        <p>Whether it is an after-work shisha, a date night or a long evening with friends, reserve your place at Deuces.</p>
+      </div>
+
+      <div class="reservation__widget container reveal">
+        <!-- Reservly Widget -->
+        <div class="reservly-wrapper">
+          <div id="reservly-banner">
+            <div id="reservly-link-line" class="reservly-bgtext">
+              <a href="https://reservly.at" target="_blank" rel="noopener" class="reservly-bgtext">Reservly</a>
+              <a href="https://reservly.at/datenschutz/b2c/?r-slug=deuces-mirage-garden" target="_blank" rel="noopener noreferrer" class="reservly-bgtext">Datenschutz</a>
+            </div>
+          </div>
+          <iframe
+            id="reservly-iframe"
+            src="https://app.reservly.at/iframe/deuces-mirage-garden/?theme=default&amp;primaryColor=FFFFFF&amp;backgroundColor=0E1730&amp;font=outfit&amp;tv=2026-07-24T20%3A19%3A51.143%2B00%3A00"
+            title="Reservly Reservierung"
+            loading="lazy"
+            frameborder="0"
+            scrolling="auto">
+          </iframe>
+        </div>
+        <!-- End Reservly Widget -->
+      </div>
+    </section>
+
+    <!-- Gallery carousel -->
+    <section class="gallery section" id="gallery" aria-labelledby="gallery-title">
+      <div class="section-heading section-heading--center gallery__heading container reveal">
+        <p class="eyebrow">Gallery</p>
+        <h2 id="gallery-title">Moments at Deuces</h2>
+      </div>
+      <div class="gallery-carousel reveal" id="gallery-carousel" role="region" aria-roledescription="carousel" aria-label="Deuces lounge gallery" tabindex="0">
+        <div class="gallery-carousel__viewport" id="gallery-viewport">
+          <figure class="gallery-slot gallery-slot--previous" aria-hidden="true">
+            <img src="assets/images/gallery-01.jpg" width="1400" height="900" loading="lazy" alt="" data-fallback>
+          </figure>
+          <figure class="gallery-slot gallery-slot--active">
+            <img src="assets/images/gallery-02.jpg" width="1400" height="900" loading="lazy" alt="Friends enjoying an evening together" data-fallback>
+          </figure>
+          <figure class="gallery-slot gallery-slot--next" aria-hidden="true">
+            <img src="assets/images/gallery-03.jpg" width="1400" height="900" loading="lazy" alt="" data-fallback>
+          </figure>
+        </div>
+        <div class="gallery-carousel__controls container" role="group" aria-label="Gallery controls">
+          <button class="gallery-control" id="gallery-prev" type="button" aria-label="Previous gallery image"><span class="material-symbols-outlined" aria-hidden="true">arrow_back</span></button>
+          <div class="gallery-dots" id="gallery-dots" role="group" aria-label="Choose gallery image"></div>
+          <button class="gallery-control" id="gallery-next" type="button" aria-label="Next gallery image"><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></button>
+        </div>
+        <p class="visually-hidden" id="gallery-status" aria-live="polite">Gallery image 2 of 6</p>
+      </div>
+    </section>
+
+    <!-- Instagram collage -->
+    <section class="instagram section" aria-labelledby="instagram-title">
+      <div class="instagram__inner container">
+        <div class="section-heading section-heading--center reveal">
+          <p class="eyebrow">Follow the night</p>
+          <h2 id="instagram-title">Instagram</h2>
+        </div>
+
+        <div class="instagram__collage reveal">
+          <a class="instagram-card instagram-card--one image-shell" href="https://www.instagram.com/deucesshisha/" target="_blank" rel="noopener noreferrer">
+            <img src="assets/images/instagram-01.jpg" width="800" height="1000" loading="lazy" alt="Friends at Deuces" data-fallback>
+          </a>
+          <a class="instagram-card instagram-card--two image-shell" href="https://www.instagram.com/deucesshisha/" target="_blank" rel="noopener noreferrer">
+            <img src="assets/images/instagram-02.jpg" width="900" height="900" loading="lazy" alt="Cocktail and tea at Deuces" data-fallback>
+          </a>
+          <a class="instagram-card instagram-card--three image-shell" href="https://www.instagram.com/deucesshisha/" target="_blank" rel="noopener noreferrer">
+            <img src="assets/images/instagram-03.jpg" width="800" height="1100" loading="lazy" alt="Middle Eastern bites at Deuces" data-fallback>
+          </a>
+          <a class="instagram-card instagram-card--four image-shell" href="https://www.instagram.com/deucesshisha/" target="_blank" rel="noopener noreferrer">
+            <img src="assets/images/instagram-04.jpg" width="1000" height="800" loading="lazy" alt="Shisha in the lounge" data-fallback>
+          </a>
+          <a class="instagram-card instagram-card--five image-shell" href="https://www.instagram.com/deucesshisha/" target="_blank" rel="noopener noreferrer">
+            <img src="assets/images/instagram-05.jpg" width="800" height="1050" loading="lazy" alt="Deuces lounge interior" data-fallback>
+          </a>
+        </div>
+
+        <div class="instagram__action reveal">
+          <a class="link-box" href="https://www.instagram.com/deucesshisha/" target="_blank" rel="noopener noreferrer"><span>Follow @deucesshisha</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location and contact -->
+    <section class="visit-section section" id="visit" aria-labelledby="visit-title">
+      <div class="container">
+        <div class="section-heading visit-section__heading reveal">
+          <p class="eyebrow">Find Us</p>
+          <h2 id="visit-title">Visit Us</h2>
+        </div>
+
+        <div class="visit-section__grid">
+          <div class="visit-section__map reveal reveal--from-left">
+            <iframe
+              title="Map showing Deuces at Krugerstraße 6 in Vienna"
+              src="https://www.google.com/maps?q=Krugerstra%C3%9Fe%206%2C%201010%20Wien%2C%20Austria&amp;output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen>
+            </iframe>
+          </div>
+
+          <div class="visit-section__details">
+            <div class="visit-section__video reveal reveal--from-right" id="location-video-wrap">
+              <video
+                id="location-video"
+                poster="assets/images/deuces-location-poster.jpg"
+                preload="metadata"
+                muted
+                loop
+                playsinline>
+                <source src="assets/videos/deuces-location.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+              </video>
+            </div>
+
+            <div class="visit-section__information reveal">
+              <address class="visit-section__address">
+                Krugerstraße 6 · 1010 Vienna · Austria
+              </address>
+
+              <div class="visit-section__contact">
+                <a href="tel:+436769218411">+43 676 921 8411</a>
+                <a href="mailto:office@deuces.at">office@deuces.at</a>
+                <a href="https://www.instagram.com/deucesshisha/" target="_blank" rel="noopener noreferrer">@deucesshisha</a>
+              </div>
+
+              <!-- VERIFY OPENING HOURS WITH DEUCES BEFORE LAUNCH -->
+              <div class="visit-section__hours">
+                <p class="visit-section__hours-title">Opening hours</p>
+                <dl>
+                  <div>
+                    <dt>Sunday - Wednesday</dt>
+                    <dd>13:00 - 00:00</dd>
+                  </div>
+                  <div>
+                    <dt>Thursday - Saturday</dt>
+                    <dd>13:00 - 02:00</dd>
+                  </div>
+                </dl>
+              </div>
+
+              <a
+                class="link-box visit-section__map-link"
+                href="https://www.google.com/maps/search/?api=1&amp;query=Krugerstra%C3%9Fe+6%2C+1010+Wien%2C+Austria"
+                target="_blank"
+                rel="noopener noreferrer">
+                <span>View Map</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="site-footer__top container">
+      <a class="site-footer__wordmark" href="#home">
+        <img src="assets/images/deuces-logo.png" width="263" height="77" alt="Deuces">
+      </a>
+      <p>Shisha. Music. Love.</p>
+    </div>
+
+    <div class="site-footer__grid container">
+      <nav aria-label="Footer navigation">
+        <a href="#story">Our Story</a>
+        <a href="#menu">Menu</a>
+        <a href="#events">Events</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#reserve">Reserve</a>
+      </nav>
+
+      <address>
+        Krugerstraße 6<br>
+        1010 Vienna · Austria
+      </address>
+
+      <div class="site-footer__contact">
+        <a href="tel:+436769218411">+43 676 921 8411</a>
+        <a href="mailto:office@deuces.at">office@deuces.at</a>
+        <a href="https://www.instagram.com/deucesshisha/" target="_blank" rel="noopener noreferrer">@deucesshisha</a>
+      </div>
+    </div>
+
+    <div class="site-footer__bottom container">
+      <p>&copy; <span id="copyright-year"></span> Deuces</p>
+      <div>
+        <a href="mailto:office@deuces.at?subject=Privacy%20policy%20enquiry">Privacy</a>
+        <a href="mailto:office@deuces.at?subject=Imprint%20enquiry">Imprint</a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">
+    <span class="material-symbols-outlined" aria-hidden="true">arrow_upward</span>
+  </button>
+
+  <noscript>
+    <p class="noscript-message">JavaScript is disabled. All Deuces information remains available, but the sliders and navigation overlay need JavaScript for full interaction.</p>
+  </noscript>
+</body>
+</html>
